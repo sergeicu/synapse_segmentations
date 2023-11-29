@@ -7,7 +7,7 @@ Allows for radiologists to mark segmentations in Synapse, and for researchers to
     Usage: python synapse_segmentation.py $video_avi_file $nifti_file [--green_threshold <200>] [--erode <2>] [--dilate <1>] [--large_object_threshold <100>] [--dilate_erode_it <5>]  [--dwi] [--skip_existing]
 ```
 
-#How to use: 
+# How to use: 
     1. [Synapse] Open image series with a segmentation. NB Currently the algorithm will only work on segmentations that are closed loop (i.e. connected lines)
     2. [Synapse] Right click and select Export/Print 
     3. [Synapse] Export as 'AVI' file. Make sure that 'Annotations' box is marked. Export 'All Images in a Series'. This will export .avi video. 
